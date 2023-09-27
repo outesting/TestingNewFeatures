@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "TestingNewFeatures"
+  description: "Testing container version 0.0.2"
+  annotations:
+    github.com/project-slug: tanuudemo/TestingNewFeatures
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/spiderman"
